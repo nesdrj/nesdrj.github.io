@@ -8,7 +8,7 @@ import { SITE_URL } from "./src/consts.ts";
 
 // https://astro.build/config
 export default defineConfig({
-  site: SITE_URL,
+  site: 'https://nesdrj.github.io',
   integrations: [mdx(), sitemap()],
   vite: {
     plugins: [tailwindcss()],
