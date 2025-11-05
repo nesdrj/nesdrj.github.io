@@ -14,7 +14,7 @@ export const SITE_URL: string = "https://shonebinu.com";
 export const meta = {
   about: {
     // index page
-    title: "Shone Binu",
+    title: "Nestor Ramirez",
     description:
       "Hi, I'm Shone Binu, a software engineer. Welcome to my little corner of the internet!",
   },
