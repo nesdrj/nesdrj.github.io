@@ -16,7 +16,7 @@ export const meta = {
     // index page
     title: "Nestor Ramirez",
     description:
-      "Hi, I'm Shone Binu, a software engineer. Welcome to my little corner of the internet!",
+      "Hi, I'm Nestor Ramirez, a software engineer. Welcome to my little corner of the internet!",
   },
   projects: {
     title: "Projects | Shone Binu",
