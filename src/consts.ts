@@ -86,6 +86,9 @@ export const projects: Project[] = [
     description:
       "Penweave is a CodePen‑like tool that lets users run their HTML/CSS/JS in a browser environment with secure preview and sharing.",
     //sourceHref: "https://github.com/shonebinu/penweave/",
+    images: [
+      "/assets/projects/Aplica-Movil 1.png"
+    ],
   },
   {
     logoImage: MGUScraperImage,
