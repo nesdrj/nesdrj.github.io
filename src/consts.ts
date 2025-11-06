@@ -49,28 +49,28 @@ export const about: About = {
     "I’m a recent <u>Software Engineer</u> graduate from India 🇮🇳 who likes to keep tackling new problems. Currently, I’m working on the <u>React and Node.js</u> side of things. Outside of this, I work on improving myself in whatever I see fit.",
   links: [
     // Lucide icons
-    { icon: "Github", href: "https://github.com/shonebinu/" },
-    { icon: "Linkedin", href: "https://www.linkedin.com/in/shonebinu/" },
-    { icon: "Youtube", href: "https://www.youtube.com/@shone_binu" },
+    { icon: "Github", href: "https://github.com/nesdrj" },
+    { icon: "Linkedin", href: "www.linkedin.com/in/nestordrj" },
+    //{ icon: "Youtube", href: "https://www.youtube.com/@shone_binu" },
   ],
   resumeHref:
-    "https://drive.google.com/file/d/10dfGCIiX2b7Wf-Lj51ypt3UHgPiPQ3ZV/view?usp=sharing",
+    "https://drive.google.com/file/d/1XTyUAmdCwaiUtlRKsx6VueyOaxGBQ_oG/view?usp=sharing",
   workExperience: [
     {
-      title: "Full Stack Developer Intern",
-      timeline: "May 2024 - Oct 2024",
-      company: "Rabbitsquare • India",
+      title: "Desarrollador Web Pasante",
+      timeline: "May 2024 - Abr 2025",
+      company: "Volskwagen • Veracruz",
       description:
-        "Developed a LAMP stack web solution for a Civil Service academy, including a customizable public website, management portal, user portal, and exam result publishing system.",
+        "Colabore con el equipo de desarrollo para la mejora continua de sus sistema Tecnologia usada: HTML, Css, TypeScript, Php, Angular, Postman",
     },
   ],
   education: [
     {
-      title: "Bachelor of Computer Application",
-      timeline: "Jun 2022 - Apr 2025",
-      institution: "Nirmala College Muvattupuzha • India",
+      title: "Licenciatura en Sistemas Computacionales",
+      timeline: "Sep 2021 - Dic 2024",
+      institution: "Universidad Mexicana • Ver, Mexico",
       description:
-        "Studied core computer science fundamentals including programming languages, data structures, algorithms, operating systems, and networking, with practical experience in Java, C/C++, JavaScript, PHP, and Linux.",
+        "Me formé en el área de informática, con conocimientos en programación utilizando lenguajes como Java, Python y PHP. También tengo experiencia en el manejo de bases de datos con SQL Server, así como en redes básicas y arquitectura de computadoras.Durante mi formación, cursé asignaturas relacionadas con gestión de proyectos, ingeniería de software y administración, lo que me permitió desarrollar una perspectiva completa tanto en la parte técnica como en la organización y planeación de soluciones tecnológicas.",
     },
   ],
   // parses html
@@ -105,15 +105,7 @@ export const projects: Project[] = [
     sourceHref: "https://github.com/shonebinu/flashify",
     liveHref: "https://flashify.shonebinu.com/",
   },
-  {
-    logoImage: WeatherifyImage,
-    title: "Weatherify",
-    techs: ["Javascript", "Webpack"],
-    description:
-      "Weather app featuring glassmorphism design, powered by weatherapi.com.",
-    sourceHref: "https://github.com/shonebinu/weatherify",
-    liveHref: "https://shonebinu.github.io/weatherify/",
-  },
+  
 ];
 
 // add blog articles in /src/content/blog
