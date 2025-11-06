@@ -85,7 +85,7 @@ export const projects: Project[] = [
     techs: ["Excel", "Jira", "Devtools"],
     description:
       "Penweave is a CodePen‑like tool that lets users run their HTML/CSS/JS in a browser environment with secure preview and sharing.",
-    sourceHref: "https://github.com/shonebinu/penweave/",
+    //sourceHref: "https://github.com/shonebinu/penweave/",
   },
   {
     logoImage: MGUScraperImage,
@@ -93,8 +93,8 @@ export const projects: Project[] = [
     techs: ["Excel", "AndroidStudio", "Jira"],
     description:
       "MGU Scraper is a tool designed to simplify the extraction and analysis of bulk student exam results from MGU Kottayam University.",
-    sourceHref: "https://github.com/shonebinu/MGUScraper",
-    liveHref: "https://mguscraper.streamlit.app/",
+   // sourceHref: "https://github.com/shonebinu/MGUScraper",
+   // liveHref: "https://mguscraper.streamlit.app/",
   },
   {
     logoImage: FlashifyImage,
@@ -102,8 +102,8 @@ export const projects: Project[] = [
     techs: ["PostgreSQL", "Cygwin64"],
     description:
       "Flashify is a minimal, beautiful, and responsive web-based flashcard application built using the LAMP stack.",
-    sourceHref: "https://github.com/shonebinu/flashify",
-    liveHref: "https://flashify.shonebinu.com/",
+    //sourceHref: "https://github.com/shonebinu/flashify",
+    //liveHref: "https://flashify.shonebinu.com/",
   },
   
 ];
