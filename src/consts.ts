@@ -2,7 +2,7 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 import type { Header, Footer, About, Project } from "./types.ts";
 
-import ProfilePic from "./assets/projects/foto-perfil.jpg";
+import ProfilePic from "./assets/foto-perfil.jpg";
 
 import PenweaveImage from "./assets/projects/penweave.png";
 import MGUScraperImage from "./assets/projects/mguscraper.png";
