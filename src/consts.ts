@@ -7,8 +7,10 @@ import ProfilePic from "./assets/foto-perfil.jpg";
 import PenweaveImage from "./assets/projects/penweave.png";
 import MGUScraperImage from "./assets/projects/mguscraper.png";
 import WeatherifyImage from "./assets/projects/weatherify.png";
-import AplicaMovil from "./assets/projects/Aplica-Movil 1.png";
-//import AplicaMovil from "./assets/projects/Aplica-Movil 2.png";
+import AplicaWeb1 from "./assets/projects/Aplica-web-1.png";
+import AplicaWeb2 from "./assets/projects/Aplica-web-2.png";
+import Aplicamovil1 from "./assets/projects/Aplica-Movil1.png";
+import Aplicamovil2 from "./assets/projects/Aplica-Movil2.png"
 import logovw from "./assets/projects/logo-vw.png";
 
 export const SITE_URL: string = "https://shonebinu.com";
@@ -21,7 +23,7 @@ export const meta = {
       "Hi, I'm Nestor Ramirez, a software engineer. Welcome to my little corner of the internet!",
   },
   projects: {
-    title: "Projects | Shone Binu",
+    title: "Proyectos | Nestor Ramirez",
     description:
       "Here are some of my projects — things I’ve built, experimented with, and had fun creating.",
   },
@@ -33,7 +35,7 @@ export const meta = {
   // blog post title and description are taken from the variables in markdown file
 };
 
-export const header: Header = { logoTitle: "SB" };
+export const header: Header = { logoTitle: "NR" };
 
 export const footer: Footer = {
   // parses html
@@ -86,26 +88,25 @@ export const projects: Project[] = [
     title: "Diseño de Pruebas para Aplicaciones Web",
     techs: ["Excel", "Jira", "Devtools"],
     description:
-      "Penweave is a CodePen‑like tool that lets users run their HTML/CSS/JS in a browser environment with secure preview and sharing.",
-    images: [
-      "/assets/projects/Aplica-Movil 1.png",
-    ],
+      "Ejecuion de pruebas funcionales y de usabilidad para una aplicacion web de renta de autos",
+    images: [AplicaWeb1, AplicaWeb2],
   },
   {
     logoImage: MGUScraperImage,
     title: "Pruebas de Aplicaciones Moviles",
     techs: ["Excel", "AndroidStudio", "Jira"],
     description:
-      "MGU Scraper is a tool designed to simplify the extraction and analysis of bulk student exam results from MGU Kottayam University.",
+      "Ejecucion de pruebas funcionales y de usabilidad para una aplicacion movil.",
+      images:[Aplicamovil1, Aplicamovil2],
    // sourceHref: "https://github.com/shonebinu/MGUScraper",
    // liveHref: "https://mguscraper.streamlit.app/",
   },
   {
     logoImage: logovw,
-    title: "Base de Datos",
-    techs: ["PostgreSQL", "Cygwin64"],
+    title: "Visualizador de archivos PDF",
+    techs: ["Tyscript", "Angular"],
     description:
-      "Flashify is a minimal, beautiful, and responsive web-based flashcard application built using the LAMP stack.",
+      "Creacion de una herramienta para la visualizacion de archivos PDF en el entorno empresarial de Volkswagen.",
     //sourceHref: "https://github.com/shonebinu/flashify",
     //liveHref: "https://flashify.shonebinu.com/",
   },
