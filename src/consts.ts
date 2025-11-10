@@ -7,6 +7,11 @@ import ProfilePic from "./assets/foto-perfil.jpg";
 import PenweaveImage from "./assets/projects/penweave.png";
 import MGUScraperImage from "./assets/projects/mguscraper.png";
 import WeatherifyImage from "./assets/projects/weatherify.png";
+import aplicamovil1 from "./assets/projects/aplica-movil-1.png";
+import aplicamovil2 from "./assets/projects/aplica-movil-2.png";
+import aplicaweb1 from "./assets/projects/aplica-web-1.png";
+import aplicaweb2 from "./assets/projects/aplica-web-2.png";
+import aplicaweb3 from "./assets/projects/aplica-web-3.png";
 
 import logovw from "./assets/projects/logo-vw.png";
 
@@ -85,8 +90,8 @@ export const projects: Project[] = [
     title: "Diseño de Pruebas para Aplicaciones Web",
     techs: ["Excel", "Jira", "Devtools"],
     description:
-      "Ejecuion de pruebas funcionales y de usabilidad para una aplicacion web de renta de autos",
-    images: [],
+      "Ejecuion de pruebas funcionales y de usabilidad para una aplicacion web de renta de autos.",
+    images: [aplicaweb1, aplicaweb2, aplicaweb3],
   },
   {
     logoImage: MGUScraperImage,
@@ -94,7 +99,7 @@ export const projects: Project[] = [
     techs: ["Excel", "AndroidStudio", "Jira"],
     description:
       "Ejecucion de pruebas funcionales y de usabilidad para una aplicacion movil.",
-      images:[],
+      images:[aplicamovil1, aplicamovil2],
    // sourceHref: "https://github.com/shonebinu/MGUScraper",
    // liveHref: "https://mguscraper.streamlit.app/",
   },
