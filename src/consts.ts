@@ -9,8 +9,8 @@ import MGUScraperImage from "./assets/projects/mguscraper.png";
 import WeatherifyImage from "./assets/projects/weatherify.png";
 import AplicaWeb1 from "./assets/projects/aplica-web-1.png";
 import AplicaWeb2 from "./assets/projects/aplica-web-2.png";
-import Aplicamovil1 from "./assets/projects/Aplica-movil1.png";
-import Aplicamovil2 from "./assets/projects/Aplica-Movil2.png"
+import Aplicamovil1 from "./assets/projects/aplica-movil1.png";
+import Aplicamovil2 from "./assets/projects/aplica-movil2.png";
 import logovw from "./assets/projects/logo-vw.png";
 
 export const SITE_URL: string = "https://shonebinu.com";
