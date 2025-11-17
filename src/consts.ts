@@ -56,7 +56,7 @@ export const about: About = {
   links: [
     // Lucide icons
     { icon: "Github", href: "https://github.com/nesdrj" },
-    { icon: "Linkedin", href: "www.linkedin.com/in/nestordrj" },
+    { icon: "Linkedin", href: "https://linkedin.com/in/nestordrj" },
     //{ icon: "Youtube", href: "https://www.youtube.com/@shone_binu" },
   ],
   resumeHref:
